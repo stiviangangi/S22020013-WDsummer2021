@@ -7,32 +7,37 @@
 </head>
 <body>
     <fieldset>
-        <legend>Data Calon Mahasiswa Fakultas Ilmu Komputer</legend>
+        <legend>Formulir Calon Pegawai</legend>
         <label for="name">Nama : </label>
-        <input type="text" name="name" /> <br>
-        <label for="jenisKelamin">Jenis Kelamin :</label>
-
-            <input type="checkbox">Laki-Laki </input>
-            <input type="checkbox">Perempuan </input><br>
-
-        <label for="asalSekolah">Asal Sekolah : </label>
-        <input type="text" name="asalSekolah" /><br>
+        <input type="text" name="Name" /> <br>
         <label for="address">Alamat : </label>
+        <input type="text" name="Alamat" /> <br>
+        <label for="password">Password : </label>
+        <input type="text" name="Password" /><br>
+        <br>
+        <label for="jenisKelamin">Jenis Kelamin :</label>
+               
+        <input type="radio">Laki-Laki </input>
+        <input type="radio">Perempuan </input><br>
+
+        
+        <label for="bahasa pemograman yang dikuasai">bahasa pemograman : </label>
+        <input type="checkbox"> Web </input>
+        <input type="checkbox"> Mobile </input>
+        <input type="checkbox"> Desktop </input>
+        
+        <label for="kota asal">kota asal : </label>
         <select>
+            
             <option value="-">-</option>
             <option value="Jakarta">Jakarta</option>
+            <option value="Semarang">Semarang</option>
             <option value="Manado">Manado</option>
+            <option value="Bali">Bali</option>
             <option value="Surabaya">Surabaya</option>
-        </select><br>
-        <label for="jurusan">Jurusan : </label>
-        <input type="checkbox"> Informatika </input>
-        <input type="checkbox"> Sistem Informasi </input><br>
-
-        <label for="phoneNumber">Nomor Telepon : </label>
-        <input type="text" name="phoneNumber" /><br>
-        <br>
-        <label for="pendapat">Pendapat anda tentang jurusan yang anda pilih :</label>
-        <textarea placeholder="Tulis pendapat anda disini..." rows="4" cols="50" ></textarea><br>
+        
+        <label for="pendapat">Apa yang membuat kami harus memilih anda? :</label>
+        <textarea placeholder="Tulis jawaban anda disini..." rows="4" cols="50" ></textarea><br>
         <button>Selesai</button>
     </fieldset>
 </body>
